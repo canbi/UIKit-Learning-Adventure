@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B3317D27D2215F00520D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3317C27D2215F00520D5C /* AppDelegate.swift */; };
+		36B3317F27D2215F00520D5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3317E27D2215F00520D5C /* SceneDelegate.swift */; };
+		36B3318127D2215F00520D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3318027D2215F00520D5C /* ViewController.swift */; };
+		36B3318427D2215F00520D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B3318227D2215F00520D5C /* Main.storyboard */; };
+		36B3318627D2215F00520D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B3318527D2215F00520D5C /* Assets.xcassets */; };
+		36B3318927D2215F00520D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B3318727D2215F00520D5C /* LaunchScreen.storyboard */; };
+		36B3319427D2215F00520D5C /* TimeDatePickerKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3319327D2215F00520D5C /* TimeDatePickerKullanimiTests.swift */; };
+		36B3319E27D2215F00520D5C /* TimeDatePickerKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3319D27D2215F00520D5C /* TimeDatePickerKullanimiUITests.swift */; };
+		36B331A027D2215F00520D5C /* TimeDatePickerKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3319F27D2215F00520D5C /* TimeDatePickerKullanimiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36B3319027D2215F00520D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B3317127D2215E00520D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B3317827D2215F00520D5C;
+			remoteInfo = TimeDatePickerKullanimi;
+		};
+		36B3319A27D2215F00520D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B3317127D2215E00520D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B3317827D2215F00520D5C;
+			remoteInfo = TimeDatePickerKullanimi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36B3317927D2215F00520D5C /* TimeDatePickerKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDatePickerKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B3317C27D2215F00520D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36B3317E27D2215F00520D5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36B3318027D2215F00520D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36B3318327D2215F00520D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36B3318527D2215F00520D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36B3318827D2215F00520D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36B3318A27D2215F00520D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B3318F27D2215F00520D5C /* TimeDatePickerKullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDatePickerKullanimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B3319327D2215F00520D5C /* TimeDatePickerKullanimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDatePickerKullanimiTests.swift; sourceTree = "<group>"; };
+		36B3319927D2215F00520D5C /* TimeDatePickerKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDatePickerKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B3319D27D2215F00520D5C /* TimeDatePickerKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDatePickerKullanimiUITests.swift; sourceTree = "<group>"; };
+		36B3319F27D2215F00520D5C /* TimeDatePickerKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDatePickerKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36B3317627D2215F00520D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3318C27D2215F00520D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3319627D2215F00520D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B3317027D2215E00520D5C = {
+			isa = PBXGroup;
+			children = (
+				36B3317B27D2215F00520D5C /* TimeDatePickerKullanimi */,
+				36B3319227D2215F00520D5C /* TimeDatePickerKullanimiTests */,
+				36B3319C27D2215F00520D5C /* TimeDatePickerKullanimiUITests */,
+				36B3317A27D2215F00520D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36B3317A27D2215F00520D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36B3317927D2215F00520D5C /* TimeDatePickerKullanimi.app */,
+				36B3318F27D2215F00520D5C /* TimeDatePickerKullanimiTests.xctest */,
+				36B3319927D2215F00520D5C /* TimeDatePickerKullanimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36B3317B27D2215F00520D5C /* TimeDatePickerKullanimi */ = {
+			isa = PBXGroup;
+			children = (
+				36B3317C27D2215F00520D5C /* AppDelegate.swift */,
+				36B3317E27D2215F00520D5C /* SceneDelegate.swift */,
+				36B3318027D2215F00520D5C /* ViewController.swift */,
+				36B3318227D2215F00520D5C /* Main.storyboard */,
+				36B3318527D2215F00520D5C /* Assets.xcassets */,
+				36B3318727D2215F00520D5C /* LaunchScreen.storyboard */,
+				36B3318A27D2215F00520D5C /* Info.plist */,
+			);
+			path = TimeDatePickerKullanimi;
+			sourceTree = "<group>";
+		};
+		36B3319227D2215F00520D5C /* TimeDatePickerKullanimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				36B3319327D2215F00520D5C /* TimeDatePickerKullanimiTests.swift */,
+			);
+			path = TimeDatePickerKullanimiTests;
+			sourceTree = "<group>";
+		};
+		36B3319C27D2215F00520D5C /* TimeDatePickerKullanimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36B3319D27D2215F00520D5C /* TimeDatePickerKullanimiUITests.swift */,
+				36B3319F27D2215F00520D5C /* TimeDatePickerKullanimiUITestsLaunchTests.swift */,
+			);
+			path = TimeDatePickerKullanimiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36B3317827D2215F00520D5C /* TimeDatePickerKullanimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B331A327D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimi" */;
+			buildPhases = (
+				36B3317527D2215F00520D5C /* Sources */,
+				36B3317627D2215F00520D5C /* Frameworks */,
+				36B3317727D2215F00520D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeDatePickerKullanimi;
+			productName = TimeDatePickerKullanimi;
+			productReference = 36B3317927D2215F00520D5C /* TimeDatePickerKullanimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36B3318E27D2215F00520D5C /* TimeDatePickerKullanimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B331A627D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimiTests" */;
+			buildPhases = (
+				36B3318B27D2215F00520D5C /* Sources */,
+				36B3318C27D2215F00520D5C /* Frameworks */,
+				36B3318D27D2215F00520D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B3319127D2215F00520D5C /* PBXTargetDependency */,
+			);
+			name = TimeDatePickerKullanimiTests;
+			productName = TimeDatePickerKullanimiTests;
+			productReference = 36B3318F27D2215F00520D5C /* TimeDatePickerKullanimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36B3319827D2215F00520D5C /* TimeDatePickerKullanimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B331A927D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimiUITests" */;
+			buildPhases = (
+				36B3319527D2215F00520D5C /* Sources */,
+				36B3319627D2215F00520D5C /* Frameworks */,
+				36B3319727D2215F00520D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B3319B27D2215F00520D5C /* PBXTargetDependency */,
+			);
+			name = TimeDatePickerKullanimiUITests;
+			productName = TimeDatePickerKullanimiUITests;
+			productReference = 36B3319927D2215F00520D5C /* TimeDatePickerKullanimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36B3317127D2215E00520D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					36B3317827D2215F00520D5C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					36B3318E27D2215F00520D5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 36B3317827D2215F00520D5C;
+					};
+					36B3319827D2215F00520D5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 36B3317827D2215F00520D5C;
+					};
+				};
+			};
+			buildConfigurationList = 36B3317427D2215F00520D5C /* Build configuration list for PBXProject "TimeDatePickerKullanimi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36B3317027D2215E00520D5C;
+			productRefGroup = 36B3317A27D2215F00520D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36B3317827D2215F00520D5C /* TimeDatePickerKullanimi */,
+				36B3318E27D2215F00520D5C /* TimeDatePickerKullanimiTests */,
+				36B3319827D2215F00520D5C /* TimeDatePickerKullanimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36B3317727D2215F00520D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B3318927D2215F00520D5C /* LaunchScreen.storyboard in Resources */,
+				36B3318627D2215F00520D5C /* Assets.xcassets in Resources */,
+				36B3318427D2215F00520D5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3318D27D2215F00520D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3319727D2215F00520D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36B3317527D2215F00520D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B3318127D2215F00520D5C /* ViewController.swift in Sources */,
+				36B3317D27D2215F00520D5C /* AppDelegate.swift in Sources */,
+				36B3317F27D2215F00520D5C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3318B27D2215F00520D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B3319427D2215F00520D5C /* TimeDatePickerKullanimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B3319527D2215F00520D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B331A027D2215F00520D5C /* TimeDatePickerKullanimiUITestsLaunchTests.swift in Sources */,
+				36B3319E27D2215F00520D5C /* TimeDatePickerKullanimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36B3319127D2215F00520D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B3317827D2215F00520D5C /* TimeDatePickerKullanimi */;
+			targetProxy = 36B3319027D2215F00520D5C /* PBXContainerItemProxy */;
+		};
+		36B3319B27D2215F00520D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B3317827D2215F00520D5C /* TimeDatePickerKullanimi */;
+			targetProxy = 36B3319A27D2215F00520D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36B3318227D2215F00520D5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B3318327D2215F00520D5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36B3318727D2215F00520D5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B3318827D2215F00520D5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36B331A127D2215F00520D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36B331A227D2215F00520D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36B331A427D2215F00520D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeDatePickerKullanimi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36B331A527D2215F00520D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeDatePickerKullanimi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36B331A727D2215F00520D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDatePickerKullanimi.app/TimeDatePickerKullanimi";
+			};
+			name = Debug;
+		};
+		36B331A827D2215F00520D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDatePickerKullanimi.app/TimeDatePickerKullanimi";
+			};
+			name = Release;
+		};
+		36B331AA27D2215F00520D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeDatePickerKullanimi;
+			};
+			name = Debug;
+		};
+		36B331AB27D2215F00520D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32L9LV3KSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canbi.TimeDatePickerKullanimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeDatePickerKullanimi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36B3317427D2215F00520D5C /* Build configuration list for PBXProject "TimeDatePickerKullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B331A127D2215F00520D5C /* Debug */,
+				36B331A227D2215F00520D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B331A327D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B331A427D2215F00520D5C /* Debug */,
+				36B331A527D2215F00520D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B331A627D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B331A727D2215F00520D5C /* Debug */,
+				36B331A827D2215F00520D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B331A927D2215F00520D5C /* Build configuration list for PBXNativeTarget "TimeDatePickerKullanimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B331AA27D2215F00520D5C /* Debug */,
+				36B331AB27D2215F00520D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36B3317127D2215E00520D5C /* Project object */;
+}
